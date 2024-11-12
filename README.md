@@ -2,7 +2,7 @@
  extract scripts js end css from your proiects with composer
 
 
-### Execute a composer.json, with the following script. To extract scripts we will use for test a wordpress file project. We will add to the project the wordpress location from where js and css are extracted
+### Execute a composer.json, with the following script https://github.com/Ghepes/extract-scripts   To extract scripts we will use for test a wordpress file project. We will add to the project the wordpress location from where js and css are extracted
 
 TREE project format
 ````
