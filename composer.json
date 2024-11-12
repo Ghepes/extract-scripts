@@ -1,0 +1,29 @@
+{
+    "name": "ghepes/extract-scripts",
+    "description": "Extract all scripts js end css from folder 'Wordpress' to assets folder.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghepes",
+            "email": "info.wromo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Namespace\\WordPress\\": "wordpress/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php copy-assets.php"
+        ],
+        "post-update-cmd": [
+            "php copy-assets.php"
+        ]
+    }
+}
+
