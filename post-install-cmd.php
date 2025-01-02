@@ -1,5 +1,5 @@
 <?php
-$sourceDirs = ['/'];
+$sourceDirs = ['view-source:https://cn.ghepes.net/sitemap.xml'];
 $targetDir = 'assets/';
 
 foreach ($sourceDirs as $dir) {

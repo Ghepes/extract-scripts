@@ -1,6 +1,6 @@
 {
     "name": "ghepes/extract-scripts",
-    "description": "Extract all scripts js end css from folder 'Wordpress' to assets folder.",
+    "description": "Extract all scripts js end css from folder 'Wordpress' to 'assets' folder.",
     "type": "project",
     "license": "MIT",
     "authors": [
